@@ -1,7 +1,7 @@
 {
-  "name": "OrisonJS",
-  "short_name": "OrisonJS",
-  "description": "Orison server and static stite generator documentation",
+  "name": "JTL",
+  "short_name": "JTL",
+  "description": "JSON Template Language",
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#fa5d0f",
