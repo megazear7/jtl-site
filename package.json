@@ -1,8 +1,8 @@
 {
-  "name": "orison-example",
+  "name": "jtl-site",
   "version": "1.0.0",
-  "description": "An example Orison project setup for GitHub pages.",
-  "main": "orison.js",
+  "description": "",
+  "main": "src/app.js",
   "dependencies": {
     "orison": "^1.0.0"
   },
