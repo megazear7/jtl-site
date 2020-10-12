@@ -1,9 +1,7 @@
-## JTL: <small>JSON to HTML Converter</small> 
-
 JTL converts properly formatted JSON into HTML. To install JTL use npm.
 
 #### Install
-```
+```bash
 npm install @megazear7/jtl
 ```
 
@@ -35,7 +33,7 @@ const html = jtl(json).toHtmlString();
 This will output the following html:
 
 #### Output
-```
+```html
 <html lang="en">
    <head></head>
    <body>
@@ -43,5 +41,3 @@ This will output the following html:
    </body>
 </html>
 ```
-
-To learn more go to [https://github.com/megazear7/jtl](https://github.com/megazear7/jtl)

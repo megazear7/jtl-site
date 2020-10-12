@@ -1,6 +1,5 @@
 import { html } from 'orison';
 import header from '../partials/header.js';
-import nav from '../partials/nav.js';
 import footer from '../partials/footer.js';
 
 export default context => html`
@@ -18,6 +17,10 @@ export default context => html`
       ${context.page.html}
     </main>
     ${footer()}
+
+    <link rel="stylesheet" href="/vendor/highlightjs/github.css">
+    <script src="/vendor/highlightjs/highlight.pack.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>
 `;

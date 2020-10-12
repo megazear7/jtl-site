@@ -5,9 +5,11 @@
 html {
   --primary-color: #c18e9d;
   --secondary-color: #85cdca;
+  --secondary-color-dark: #317774;
   --tertiary-color: #e27d60;
-  --code-header-color: #a8a8a8;
-  --code-background-color: #eee;
+  --tertiary-color-dark: #8e331a;
+  --code-header-color: #999;
+  --code-background-color: #f8f8f8;
   --grey: #eee;
   --dark-grey: #444;
   --app-section-even-color: #fff;
@@ -56,7 +58,7 @@ h3 {
 h4 {
   /* Careful. This is meant to be used as code block headers */
   color: var(--code-header-color);
-  margin-bottom: 0;
+  margin: 0;
   background-color: var(--code-background-color);
   padding: 0.5em;
   border-bottom: 1px solid var(--code-header-color);
@@ -82,6 +84,7 @@ h6 {
 
 p {
   font-size: 1rem;
+  margin: 1.5rem 0 0.5rem 0;
 }
 
 main p {
@@ -95,9 +98,6 @@ section > *, footer > *, header > *, nav > * {
 }
 
 pre {
-  padding: 10px;
-  color: #333;
-  background-color: var(--code-background-color);
   border-radius: 0 0 10px 10px;
   margin-top: 0;
   overflow-x: auto;
@@ -158,16 +158,23 @@ img {
   max-width: 100%;
 }
 
-ul.breadcrumb {
+ul {
   padding: 0;
+}
+
+ul li {
   list-style: none;
 }
 
-ul.breadcrumb li {
-  display: inline;
+a {
+  color: var(--tertiary-color);
 }
 
-ul.breadcrumb li+li:before {
-  padding: 8px;
-  content: "/\00a0";
+footer a {
+  color: var(--tertiary-color-dark);
+  text-decoration: none;
+}
+
+footer {
+  color: var(--secondary-color-dark);
 }
