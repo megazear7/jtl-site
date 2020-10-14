@@ -17,6 +17,7 @@ html {
   --border-radius: 5px;
   --content-width: 800px;
   --text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  --content-padding: 20px;
   font-size: 18px;
   line-height: 2rem;
   color: rgba(0, 0, 0, 0.8);
@@ -119,6 +120,10 @@ header {
   padding: 1rem;
   border-top: 3px solid var(--primary-color);
   background-color: var(--secondary-color);
+}
+
+main {
+  padding: var(--content-padding);
 }
 
 footer {
