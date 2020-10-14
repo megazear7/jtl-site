@@ -27,7 +27,9 @@ const json = {
     ]
 }
 
-const html = jtl(json).toHtmlString();
+const htmlString = jtl(json).toHtmlString();
+// or
+const htmlElement = jtl(json).toHtmlElement();
 ```
 
 This will output the following html:

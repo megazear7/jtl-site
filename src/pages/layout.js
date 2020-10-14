@@ -9,6 +9,7 @@ export default context => html`
     <meta charset="UTF-8" />
     <title>${context.root.data.title}</title>
     <script src="/app.js"></script>
+    <script type="module" src="/playground.js"></script>
     <link rel="stylesheet" type="text/css" href="/app.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
