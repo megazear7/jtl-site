@@ -1,3 +1,17 @@
 {
-  "title": "JTL"
+  "title": "JTL",
+  "public": {
+    "movies": [
+      {
+        "title": "The Lord of the Rings",
+        "imdb": "https://www.imdb.com/title/tt0120737/"
+      }, {
+        "title": "Troy",
+        "imdb": "https://www.imdb.com/title/tt0332452/"
+      }, {
+        "title": "Tenet",
+        "imdb": "https://www.imdb.com/title/tt6723592/"
+      }
+    ]
+  }
 }
