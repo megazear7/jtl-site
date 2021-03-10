@@ -8,6 +8,12 @@ This is the website code for the [JTL documentation](https://jtl.alexlockhart.me
 npm install
 ```
 
+## Serve
+
+```
+npm run serve
+```
+
 ## Build
 
 ```
